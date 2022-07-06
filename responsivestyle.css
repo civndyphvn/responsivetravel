@@ -1,0 +1,85 @@
+/* Cindy Phan
+July 4th, 2022
+*/
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align:center;
+}
+h3{
+  text-align: center;
+}
+.col1{
+  margin:auto;
+  width:60%;
+  padding:10px;
+}
+
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col2 p {
+  margin:auto;
+  width: 60%;
+  padding: 10px;
+}
+
+
+.Col1, .Col2, .Col3 , .Col5, .Col6{
+
+  float:left;
+  width:30%;
+  padding:10px;
+  height:300px;
+}
+
+
+
+@media screen and (min-width:574px){
+  .img1,.Col1, .Col2, .Col3, .Col5, .Col6{display:none;}
+}
+.row4{
+  margin-top: 5%;
+}
+
+@media screen and (min-width:863px){
+ .Col1,.Col2,.Col3{display:block;
+  }
+
+  .col2,.Col4{
+    background-color: linen;
+}
+.row4{
+  background-color: linen;
+  margin-top: 50%;
+}
+  .Col1,.Col2,.Col3{
+   float:left;
+   width: 30%;
+   padding: 10px;
+  }
+
+}
+
+@media screen and (min-width:1154px){
+  .img1{display:block;}
+
+  .row4{
+  margin-top: 35%;
+  }
+  .Col5,.Col6{display: block;}
+
+  .Col5,.Col6{
+    float:left;
+    width: 30%;
+    padding: 10px;
+  }
+  .Col5,.Col6 {
+  display: inline-block;
+  margin-right: 100px;
+  }
+}

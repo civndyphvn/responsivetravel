@@ -1,0 +1,29 @@
+/* Cindy Phan
+July 4th, 2022
+*/
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align:center;
+}
+h3{
+  text-align: center;
+}
+.col1{
+  margin:auto;
+  width:60%;
+  padding:10px;
+}
+
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col2 p {
+  margin:auto;
+  width: 60%;
+  padding: 10px;
+}
